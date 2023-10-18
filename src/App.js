@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route, Router, Routes } from 'react-router-dom';
+import Shop from './pages/Shop';
+import { useState } from 'react';
 
 function App() {
+  const [cartItem, setCartItem] = useState([]);
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
+  const addToCart = (product, num=1) => {
+    const productExit = cartItem.find((item) => item.id === product.id)
+    if (productExit) {
+      setCartItem(cartItem.map((item) => (item.id === product.id ? { ...productExit, qty: productExit.qty + num } : item)))
+    } else{
+      setCartItem([...cartItem, { ...product, qty: num }])
+    }
+  }
+
+  const decreaseQty = (product) => {
+    const productExit = cartItem.find((item) => item.id === product.id)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Shop/>} />
+    </Routes>
+    </Router>
   );
 }
 
