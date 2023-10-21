@@ -5,8 +5,10 @@ import { ToastContainer } from 'react-bootstrap';
 import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/Footer/Footer";
 import Loader from './components/Loader/Loader';
+import NavBar from './components/Navbar/Navbar';
 const Home =lazy(() => import("./pages/Home"))
 const Shop =lazy(() => import("./pages/Shop"))
+const ProductDetails =lazy(() => import("./pages/ProductDetails"))
 export const DataContainer = createContext();
 
 const App = () => {
@@ -49,9 +51,11 @@ const App = () => {
           <ToastContainer position='top-right' autoClose={5000} hideProgressBar={false} newestOnTop={false} 
             closeOnClick pauseOnFocusLoss draggable pauseOnHover 
             theme="light" />
+          <NavBar />
           <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/shop' element={<Shop/>} />
+            <Route path='/shop/:id' element={<ProductDetails />} />
           </Routes>
           <Footer />
         </Router>
