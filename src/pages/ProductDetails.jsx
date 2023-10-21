@@ -1,5 +1,5 @@
 import { Fragment, useContext, useEffect, useState } from "react";
-import ShopList from "../ShopList"
+import ShopList from "../components/ShopList"
 import { DataContainer } from "../App";
 import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
