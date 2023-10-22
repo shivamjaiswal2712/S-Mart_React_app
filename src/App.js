@@ -8,6 +8,7 @@ import Loader from './components/Loader/Loader';
 import NavBar from './components/Navbar/Navbar';
 const Home =lazy(() => import("./pages/Home"))
 const Shop =lazy(() => import("./pages/Shop"))
+const Cart =lazy(() => import("./pages/Cart"))
 const ProductDetails =lazy(() => import("./pages/ProductDetails"))
 export const DataContainer = createContext();
 
@@ -56,6 +57,7 @@ const App = () => {
             <Route path='/' element={<Home/>} />
             <Route path='/shop' element={<Shop/>} />
             <Route path='/shop/:id' element={<ProductDetails />} />
+            <Route path="/cart" element={<Cart />} /> 
           </Routes>
           <Footer />
         </Router>
