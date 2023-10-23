@@ -3,12 +3,12 @@ import { DataContainer } from "../App";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Cart = () => {
-    const { CartItem, setCartItem, addToCart, decreaseQty, deleteProduct } = useContext(DataContainer);
-    const totalPrice = CartItem.reduce((price, item) => price + item.qty * item.price, 0)
+    const { cartItem, setCartItem, addToCart, decreaseQty, deleteProduct } = useContext(DataContainer);
+    const totalPrice = cartItem.reduce((price, item) => price + item.qty * item.price, 0);
 
     useEffect(() => {
         window.scrollTo(0, 0);
-        if(CartItem.length === 0) {
+        if(cartItem.length === 0) {
             const storedCart = localStorage.getItem("cartItem");
             setCartItem(JSON.parse(storedCart));
         }
@@ -19,8 +19,8 @@ const Cart = () => {
             <Container>
                 <Row className="justify-content-center">
                     <Col md={8}>
-                        {CartItem.length === 0 && <h1 className="no-items product">No Items are add in Cart</h1>}
-                        {CartItem.map((item) => {
+                        {cartItem.length === 0 && <h1 className="no-items product">No Items are add in Cart</h1>}
+                        {cartItem.map((item) => {
                             const productQty = item.price * item.qty
                             return(
                                 <div key={item.id} className="card-list">

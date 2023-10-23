@@ -5,15 +5,15 @@ import { toast } from "react-toastify";
 import { Col } from "react-bootstrap";
 
 const Product = ({title, productItem, addTocart}) => {
-    const {setselectedProduct} = useContext(DataContainer);
+    const {setSelectedProduct} = useContext(DataContainer);
     const router = useNavigate();
     const [count, setCount] = useState(0);
     const increment = () => {
-        setCount(count + 1)
+        setCount(count)
     }
 
     const handleClick = () => {
-        setselectedProduct(productItem);
+        setSelectedProduct(productItem);
         localStorage.setItem(`selectProduct-${productItem.id}`,JSON.stringify(productItem));
         router(`/shop/${productItem.id}`);
     }
