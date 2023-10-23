@@ -1,4 +1,5 @@
 import Select from "react-select";
+import { products } from "../utils/products";
 
 const options = [
     { value: "sofa", label: "Sofa" },
@@ -38,7 +39,7 @@ const customStyles = {
 
 const FilterSelect = (setFilterList) => {
     const handleChange = (selectedOption) => {
-        setFilterList()
+        setFilterList(products.filter(item => item.category === selectedOption.value))
     }
 
     return(

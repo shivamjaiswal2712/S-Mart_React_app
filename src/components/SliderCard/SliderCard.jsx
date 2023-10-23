@@ -11,7 +11,7 @@ const SliderCard = ({title, desc, cover}) => {
                 </Col>
         
                 <Col md={6}>
-                    <img src={cover} alt="" />
+                    <img src={cover} alt="#" />
                 </Col>
             </Row>
         </Container>

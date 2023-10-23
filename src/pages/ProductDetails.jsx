@@ -3,7 +3,7 @@ import ShopList from "../components/ShopList"
 import { DataContainer } from "../App";
 import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
-import Product from "../components/Product/Product";
+import { products } from "../utils/products";
 import Banner from "../components/Banner/Banner";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -30,7 +30,7 @@ const ProductDetails = () => {
 
     useEffect(() => {
         window.scrollTo(0 ,0);
-        setReletedProducts(Product.filter(item => item.category === selectedProduct?.category && item.id !== selectedProduct?.id));
+        setReletedProducts(products.filter(item => item.category === selectedProduct?.category && item.id !== selectedProduct?.id));
     }, [selectedProduct])
 
     return (

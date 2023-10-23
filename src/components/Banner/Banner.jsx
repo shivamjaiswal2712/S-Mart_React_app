@@ -9,7 +9,6 @@ const Banner = ({title}) => {
                     <Row>
                         <Col>
                             <h2>{title}</h2>
-                            <h1>shopping</h1>
                         </Col>
                     </Row>
                 </Container>

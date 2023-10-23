@@ -1,6 +1,7 @@
 import { Container, Row } from "react-bootstrap";
+import Product from "./Product/Product";
 
-const Section = ({ title, bgColor }) => {
+const Section = ({ title, bgColor, productItems, addToCart }) => {
     return(
         <section style={{ background: bgColor }}>
             <Container>
@@ -8,7 +9,11 @@ const Section = ({ title, bgColor }) => {
                     <h1>{title}</h1>
                 </div>
                 <Row className="justify-content-center">
-
+                    {productItems.map((productItem) => {
+                        return(
+                            <Product key={productItem.id} title={title} productItem={productItem} addTocart={addToCart} />
+                        )
+                    })}
                 </Row>
             </Container>
         </section>

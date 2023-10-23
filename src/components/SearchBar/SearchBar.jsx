@@ -1,10 +1,11 @@
 import { useState } from "react";
+import { products } from "../../utils/products";
 
 const SearchBar = (setFilterList) => {
     const [inputValue, setInputValue] = useState(null);
     const handleChange = (input) => {
         setInputValue(input.target.value);
-        setFilterList(inputValue?.toLowercase());
+        setFilterList(products.filter(item => item.productName?.toLowerCase().includes(inputValue?.toLowerCase())));
     }
 
     return(
