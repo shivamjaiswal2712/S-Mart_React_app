@@ -9,7 +9,7 @@ const Product = ({title, productItem, addTocart}) => {
     const router = useNavigate();
     const [count, setCount] = useState(0);
     const increment = () => {
-        setCount(count)
+        setCount(count + 1)
     }
 
     const handleClick = () => {
