@@ -3,7 +3,7 @@ import productImg02 from "../Images/arm-chair-01.jpg";
 import productImg03 from "../Images/arm-chair-02.jpg";
 import productImg04 from "../Images/double-sofa-01.jpg";
 import productImg05 from "../Images/iphone13.jpg";
-import productImg06 from "../Images/iphone14.jpg";
+import productImg06 from "../Images/iphone14.jpg"
 
 export const SliderData = [
     {
@@ -185,340 +185,340 @@ export const discountProduct = [
 ]
 
 export const products = [
-    // {
-    //     id: "01",
-    //     productName: "stone and Beam Westview",
-    //     imgUrl: "productImg07",
-    //     category: "sofa",
-    //     price: 193,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.7,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.5,
-    // },
-    // {
-    //     id: "02",
-    //     productName: "River Bigelow Modern",
-    //     imgUrl: "productImg08",
-    //     category: "sofa",
-    //     price: 253,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.7,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.8,
-    // },
-    // {
-    //     id: "02",
-    //     productName: "Amazon Brand Modern Sofa",
-    //     imgUrl: "productImg09",
-    //     category: "sofa",
-    //     price: 213,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.4,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.2,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.1,
-    // },
-    // {
-    //     id: "03",
-    //     productName: "Fllufy Sheep Sofa",
-    //     imgUrl: "productImg10",
-    //     category: "sofa",
-    //     price: 168,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.6,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.4,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.5,
-    // },
-    // {
-    //     id: "04",
-    //     productName: "Faux Velvet Sofa",
-    //     imgUrl: "productImg11",
-    //     category: "sofa",
-    //     price: 213,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.2,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.2,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.2,
-    // },
-    // {
-    //     id: "05",
-    //     productName: "sakarias Armchair",
-    //     imgUrl: "productImg12",
-    //     category: "chair",
-    //     price: 153,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.7,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.7,
-    // },
-    // {
-    //     id: "06",
-    //     productName: "Modern Arm Sofa",
-    //     imgUrl: "productImg13",
-    //     category: "sofa",
-    //     price: 235,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.5,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.2,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.3,
-    // },
-    // {
-    //     id: "07",
-    //     productName: "Apple iphone 14 pro",
-    //     imgUrl: "productImg14",
-    //     category: "mobile",
-    //     price: 729,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 5.0,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.9,
-    // },
-    // {
-    //     id: "08",
-    //     productName: "Apple iphone 14 max",
-    //     imgUrl: "productImg15",
-    //     category: "mobile",
-    //     price: 799,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.8,
-    // },
-    // {
-    //     id: "09",
-    //     productName: "One Plus Nord",
-    //     imgUrl: "productImg16",
-    //     category: "mobile",
-    //     price: 729,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.8,
-    // },
-    // {
-    //     id: "10",
-    //     productName: "Rolex Watch",
-    //     imgUrl: "productImg16",
-    //     category: "watch",
-    //     price: 599,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.8,
-    // },
-    // {
-    //     id: "11",
-    //     productName: "Timex Easy Reader Watch",
-    //     imgUrl: "productImg17",
-    //     category: "watch",
-    //     price: 399,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.8,
-    // },
-    // {
-    //     id: "12",
-    //     productName: "Apple Watch",
-    //     imgUrl: "productImg18",
-    //     category: "watch",
-    //     price: 699,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.8,
-    // },
-    // {
-    //     id: "13",
-    //     productName: "Beat Studio Wireless",
-    //     imgUrl: "productImg19",
-    //     category: "wireless",
-    //     price: 399,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.8,
-    // },
-    // {
-    //     id: "14",
-    //     productName: "Beat EP Headphones",
-    //     imgUrl: "productImg20",
-    //     category: "wireless",
-    //     price: 299,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.8,
-    // },
-    // {
-    //     id: "15",
-    //     productName: "Black Headphones",
-    //     imgUrl: "productImg21",
-    //     category: "wireless",
-    //     price: 229,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.8,
-    // },
-    // {
-    //     id: "16",
-    //     productName: "Bluetooth Headphones",
-    //     imgUrl: "productImg22",
-    //     category: "wireless",
-    //     price: 499,
-    //     shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //     description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     reviews: [
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //         {
-    //             rating: 4.8,
-    //             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         },
-    //     ],
-    //     avgRating: 4.8,
-    // },
+    {
+        id: "01",
+        productName: "stone and Beam Westview",
+        imgUrl: "productImg01",
+        category: "sofa",
+        price: 193,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.7,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.5,
+    },
+    {
+        id: "02",
+        productName: "River Bigelow Modern",
+        imgUrl: "productImg2",
+        category: "sofa",
+        price: 253,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.7,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.8,
+    },
+    {
+        id: "02",
+        productName: "Amazon Brand Modern Sofa",
+        imgUrl: "productImg03",
+        category: "sofa",
+        price: 213,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.4,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.2,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.1,
+    },
+    {
+        id: "03",
+        productName: "Fllufy Sheep Sofa",
+        imgUrl: "productImg04",
+        category: "sofa",
+        price: 168,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.6,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.4,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.5,
+    },
+    {
+        id: "04",
+        productName: "Faux Velvet Sofa",
+        imgUrl: "productImg05",
+        category: "sofa",
+        price: 213,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.2,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.2,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.2,
+    },
+    {
+        id: "05",
+        productName: "sakarias Armchair",
+        imgUrl: "productImg06",
+        category: "chair",
+        price: 153,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.7,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+    {
+        id: "06",
+        productName: "Modern Arm Sofa",
+        imgUrl: "productImg01",
+        category: "sofa",
+        price: 235,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.5,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.2,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.3,
+    },
+    {
+        id: "07",
+        productName: "Apple iphone 14 pro",
+        imgUrl: "productImg02",
+        category: "mobile",
+        price: 729,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 5.0,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.9,
+    },
+    {
+        id: "08",
+        productName: "Apple iphone 14 max",
+        imgUrl: "productImg04",
+        category: "mobile",
+        price: 799,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.8,
+    },
+    {
+        id: "09",
+        productName: "One Plus Nord",
+        imgUrl: "productImg06",
+        category: "mobile",
+        price: 729,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.8,
+    },
+    {
+        id: "10",
+        productName: "Rolex Watch",
+        imgUrl: "productImg16",
+        category: "watch",
+        price: 599,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.8,
+    },
+    {
+        id: "11",
+        productName: "Timex Easy Reader Watch",
+        imgUrl: "productImg17",
+        category: "watch",
+        price: 399,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.8,
+    },
+    {
+        id: "12",
+        productName: "Apple Watch",
+        imgUrl: "productImg18",
+        category: "watch",
+        price: 699,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.8,
+    },
+    {
+        id: "13",
+        productName: "Beat Studio Wireless",
+        imgUrl: "productImg19",
+        category: "wireless",
+        price: 399,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.8,
+    },
+    {
+        id: "14",
+        productName: "Beat EP Headphones",
+        imgUrl: "productImg20",
+        category: "wireless",
+        price: 299,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.8,
+    },
+    {
+        id: "15",
+        productName: "Black Headphones",
+        imgUrl: "productImg21",
+        category: "wireless",
+        price: 229,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.8,
+    },
+    {
+        id: "16",
+        productName: "Bluetooth Headphones",
+        imgUrl: "productImg22",
+        category: "wireless",
+        price: 499,
+        shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        reviews: [
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            },
+        ],
+        avgRating: 4.8,
+    },
 ];

@@ -6,16 +6,16 @@ import { Col } from "react-bootstrap";
 
 const Product = ({title, productItem, addTocart}) => {
     const {setSelectedProduct} = useContext(DataContainer);
-    const router = useNavigate();
+    const navigate = useNavigate();
     const [count, setCount] = useState(0);
     const increment = () => {
-        setCount(count + 1)
+        setCount(count)
     }
 
     const handleClick = () => {
         setSelectedProduct(productItem);
         localStorage.setItem(`selectProduct-${productItem.id}`,JSON.stringify(productItem));
-        router(`/shop/${productItem.id}`);
+        navigate(`/shop/${productItem.id}`);
     }
 
     const handleAdd = (productItem) => {
@@ -26,7 +26,7 @@ const Product = ({title, productItem, addTocart}) => {
     return(
         <Col md={5} xs={10} className="product mtop">
             {title === "Big Discount"? <span className="discount">{productItem.discount}% off</span>: null}
-            <img loading="lazy" onClick={() => handleClick()} src="" alt="" />
+            <img loading="lazy" onClick={() => handleClick()} src={productItem.imgUrl} alt="" />
             <div className="product-like">
                 <label>{count}</label> <br />
                 <ion-icon name="heart-outline" onClick={increment} />

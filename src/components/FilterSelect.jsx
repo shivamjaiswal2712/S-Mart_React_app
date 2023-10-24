@@ -47,7 +47,7 @@ const FilterSelect = (setFilterList) => {
         options={options}
         defaultValue={{ value: "", label: "Filter By Category" }}
         styles={customStyles}
-        onChange={handleChange}/>
+        onChange={handleChange} />
     );
 }
 

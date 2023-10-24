@@ -40,7 +40,7 @@ const ProductDetails = () => {
                 <Container>
                     <Row className="justify-content-center">
                         <Col md={6}>
-                            <img loading="lazy" src="" alt="" />
+                            <img loading="lazy" src={selectedProduct?.imgUrl} alt="" />
                         </Col>
 
                         <Col md={6}>
@@ -63,7 +63,7 @@ const ProductDetails = () => {
 
                             <p>{selectedProduct?.shortDesc}</p>
                             <input className="qty-input" type="number" placeholder="Qty" value={quantity} onChange={handleQuantityChange} />
-                            <button aria-label="Add" type="submit" className="add" onClick={handleAdd(selectedProduct, quantity)}>Add To Cart</button>
+                            <button aria-label="Add" type="submit" className="add" onClick={() => handleAdd(selectedProduct, quantity)}>Add To Cart</button>
                         </Col>
                     </Row>
                 </Container>

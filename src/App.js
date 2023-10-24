@@ -9,7 +9,7 @@ import NavBar from './components/Navbar/Navbar';
 const Home =lazy(() => import("./pages/Home"))
 const Shop =lazy(() => import("./pages/Shop"))
 const Cart =lazy(() => import("./pages/Cart"))
-const ProductDetails =lazy(() => import("./pages/ProductDetails"))
+const ProductDetails =lazy(() => import("./pages/ProductDetails"));
 export const DataContainer = createContext();
 
 const App = () => {
@@ -49,8 +49,8 @@ const App = () => {
     <DataContainer.Provider value={{cartItem, setCartItem, addToCart, decreaseQty, deleteProduct, selectedProduct, setSelectedProduct}}>
       <Suspense fallback={<Loader />}>
         <Router>
-          <ToastContainer position='top-right' autoClose={5000} hideProgressBar={false} newestOnTop={false} 
-            closeOnClick pauseOnFocusLoss draggable pauseOnHover 
+          <ToastContainer position='top-right' autoclose={5000} hideprogressbar="false" newestontop="false" 
+            closeonclick="false" pauseonfocusloss="false" draggable="false" pauseonhover="false" 
             theme="light" />
           <NavBar />
           <Routes>

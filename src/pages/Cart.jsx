@@ -26,7 +26,7 @@ const Cart = () => {
                                 <div key={item.id} className="card-list">
                                     <Row>
                                         <Col className="image-holder" sm={4} md={3}>
-                                            <img src="" alt="" />
+                                            <img src={item.imgUrl} alt="" />
                                         </Col>
 
                                         <Col sm={8} md={9}>

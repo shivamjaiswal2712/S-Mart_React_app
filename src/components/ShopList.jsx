@@ -5,6 +5,7 @@ import Product from "./Product/Product";
 const ShopList = ({productItems, addTocart}) => {
     useEffect(() => {
     }, [productItems])
+    
     if(productItems.length === 0) {
         return(
             <h1 className="not-found">Product Not Found !!</h1>
