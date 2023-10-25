@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Wrapper from "../components/wrapper/Wrapper";
+import Wrapper from "../components/Wrapper/Wrapper";
 import Section from "../components/Section";
 import { products, discoutProducts } from "../utils/products";
 import SliderHome from "../components/Slider";

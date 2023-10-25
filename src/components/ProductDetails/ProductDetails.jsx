@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
-import { addToCart } from "../../app/features/cart/cartSlice";
+import { addToCart } from "../../app/feature/cart/cartSlice";
 import "./product-details.css";
 
 const ProductDetails = ({ selectedProduct }) => {

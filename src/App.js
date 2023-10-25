@@ -1,68 +1,41 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { useState, React, useEffect, lazy, Suspense, createContext } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { ToastContainer } from 'react-bootstrap';
-import "react-toastify/dist/ReactToastify.css";
+import { lazy, Suspense } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NavBar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Loader from './components/Loader/Loader';
-import NavBar from './components/Navbar/Navbar';
-const Home =lazy(() => import("./pages/Home"))
-const Shop =lazy(() => import("./pages/Shop"))
-const Cart =lazy(() => import("./pages/Cart"))
-const ProductDetails =lazy(() => import("./pages/Product"));
-export const DataContainer = createContext();
+import Loader from "./components/Loader/Loader";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+const Home = lazy(() => import("./pages/Home"));
+const Shop = lazy(() => import("./pages/Shop"));
+const Cart = lazy(() => import("./pages/Cart"));
+const Product = lazy(() => import("./pages/Product"));
 
-const App = () => {
-  const [cartItem, setCartItem] = useState([]);
-  const [selectedProduct, setSelectedProduct] = useState(null);
-
-  const addToCart = (product, num=1) => {
-    const productExit = cartItem.find((item) => item.id === product.id)
-    if (productExit) {
-      setCartItem(cartItem.map((item) => (item.id === product.id ? { ...productExit, qty: productExit.qty + num } : item)))
-    } else{
-      setCartItem([...cartItem, { ...product, qty: num }])
-    }
-  }
-
-  const decreaseQty = (product) => {
-    const productExit = cartItem.find((item) => item.id === product.id)
-    // if product quantity == 1 then we have to remove it
-    if (productExit.qty === 1) {
-      setCartItem(cartItem.filter((item) => item.id !== product.id))
-    } 
-    // else we just decrease the quantity
-    else{
-      setCartItem(cartItem.map((item) => (item.id === product.id ? { ...productExit, qty: productExit.qty - 1 } : item)))
-    }
-  }
-
-  const deleteProduct = (product) => {
-    setCartItem(cartItem.filter((item) => item.id !== product.id))
-  }
-
-  useEffect(() => {
-    localStorage.setItem("cartItem",JSON.stringify(cartItem));
-  }, [cartItem])
-
+function App() {
   return (
-    <DataContainer.Provider value={{cartItem, setCartItem, addToCart, decreaseQty, deleteProduct, selectedProduct, setSelectedProduct}}>
-      <Suspense fallback={<Loader />}>
-        <Router>
-          <ToastContainer position='top-right' autoclose={5000} hideprogressbar="false" newestontop="false" 
-            closeonclick="false" pauseonfocusloss="false" draggable="false" pauseonhover="false" 
-            theme="light" />
-          <NavBar />
-          <Routes>
-            <Route path='/' element={<Home/>} />
-            <Route path='/shop' element={<Shop/>} />
-            <Route path='/shop/:id' element={<ProductDetails />} />
-            <Route path='/cart' element={<Cart />} /> 
-          </Routes>
-          <Footer />
-        </Router>
-      </Suspense>
-    </DataContainer.Provider>
+    <Suspense fallback={<Loader />}>
+      <Router>
+        <ToastContainer
+          position="top-right"
+          autoClose={1000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+        />
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/shop/:id" element={<Product />} />
+          <Route path="/cart" element={<Cart />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </Suspense>
   );
 }
 

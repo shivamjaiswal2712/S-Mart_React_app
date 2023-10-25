@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container } from "react-bootstrap";
-import "./product-review.css";
+import "./product-reviews.css";
 
 const ProductReviews = ({ selectedProduct }) => {
     const [listSelected, setListSelected] = useState("desc");

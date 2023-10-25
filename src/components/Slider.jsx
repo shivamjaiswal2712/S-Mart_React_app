@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Container } from "react-bootstrap";
-import SlideCard from "./SliderCard/SlideCard";
+import SlideCard from "./SliderCard/SliderCard";
 import { SliderData } from "../utils/products";
 
 const SliderHome = () => {

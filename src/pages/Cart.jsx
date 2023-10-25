@@ -5,7 +5,7 @@ import {
     addToCart,
     decreaseQty,
     deleteProduct,
-} from "../app/features/cart/cartSlice";
+} from "../app/feature/cart/cartSlice";
 
 const Cart = () => {
     const { cartList } = useSelector((state) => state.cart);

@@ -3,7 +3,7 @@ import "./product-card.css";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../../app/features/cart/cartSlice";
+import { addToCart } from "../../app/feature/cart/cartSlice";
 
 const ProductCard = ({ title, productItem }) => {
   const dispatch = useDispatch();
