@@ -1,40 +1,38 @@
-import { Fragment, useContext, useEffect, useState } from "react"
-import Banner from "../components/Banner/Banner";
-import { DataContainer } from "../App";
-import { Container, Row, Col } from "react-bootstrap";
-import SearchBar from "../components/SearchBar/SearchBar";
+import { Col, Container, Row } from "react-bootstrap";
 import FilterSelect from "../components/FilterSelect";
-import ShopList from "../components/ShopList";
+import SearchBar from "../components/SeachBar/SearchBar";
+import { Fragment, useState } from "react";
 import { products } from "../utils/products";
+import ShopList from "../components/ShopList";
+import Banner from "../components/Banner/Banner";
+import useWindowScrollToTop from "../hooks/useWindowScrollToTop";
 
 const Shop = () => {
-    const {addTocart} = useContext(DataContainer);
-    const [filterList, setFilterList] = useState(products.filter(item => item.category === "sofa"));
-    useEffect(() => {
-        window.scrollTo(0,0);
-    }, [])
+  const [filterList, setFilterList] = useState(
+    products.filter((item) => item.category === "sofa")
+  );
+  useWindowScrollToTop();
 
-    return(
-        <Fragment>
-            <Banner title="product" />
-                <section className="filter-bar">
-                    <Container className="filter-bar-container">
-                        <Row className="justify-content-center">
-                            <Col md={4}>
-                                <FilterSelect setFilterList={setFilterList} />
-                            </Col>
-                            <Col md={8}>
-                                <SearchBar setFilterList={setFilterList} />
-                            </Col>
-                        </Row>
-                    </Container>
-                    
-                    <Container>
-                        <ShopList productItems={filterList} addTocart={addTocart} />
-                    </Container>
-                </section>
-        </Fragment>
-    );
-}
+  return (
+    <Fragment>
+      <Banner title="product" />
+      <section className="filter-bar">
+        <Container className="filter-bar-contianer">
+          <Row className="justify-content-center">
+            <Col md={4}>
+              <FilterSelect setFilterList={setFilterList} />
+            </Col>
+            <Col md={8}>
+              <SearchBar setFilterList={setFilterList} />
+            </Col>
+          </Row>
+        </Container>
+        <Container>
+          <ShopList productItems={filterList} />
+        </Container>
+      </section>
+    </Fragment>
+  );
+};
 
 export default Shop;

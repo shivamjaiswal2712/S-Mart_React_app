@@ -9,7 +9,7 @@ import NavBar from './components/Navbar/Navbar';
 const Home =lazy(() => import("./pages/Home"))
 const Shop =lazy(() => import("./pages/Shop"))
 const Cart =lazy(() => import("./pages/Cart"))
-const ProductDetails =lazy(() => import("./pages/ProductDetails"));
+const ProductDetails =lazy(() => import("./pages/Product"));
 export const DataContainer = createContext();
 
 const App = () => {
