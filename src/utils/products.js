@@ -3,7 +3,11 @@ import productImg02 from "../Images/arm-chair-01.jpg";
 import productImg03 from "../Images/arm-chair-02.jpg";
 import productImg04 from "../Images/double-sofa-01.jpg";
 import productImg05 from "../Images/iphone13.jpg";
-import productImg06 from "../Images/iphone14.jpg"
+import productImg06 from "../Images/iphone14.jpg";
+import productImg07 from "../Images/arm-chair-03.jpg";
+import productImg08 from "../Images/double-sofa-02.jpg";
+import productImg09 from "../Images/double-sofa-03.jpg";
+import productImg10 from "../Images/double-sofa-04.jpg";
 
 export const SliderData = [
     {
@@ -188,7 +192,7 @@ export const products = [
     {
         id: "01",
         productName: "stone and Beam Westview",
-        imgUrl: "productImg01",
+        imgUrl: productImg01,
         category: "sofa",
         price: 193,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -204,7 +208,7 @@ export const products = [
     {
         id: "02",
         productName: "River Bigelow Modern",
-        imgUrl: "productImg2",
+        imgUrl: productImg02,
         category: "sofa",
         price: 253,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -224,7 +228,7 @@ export const products = [
     {
         id: "02",
         productName: "Amazon Brand Modern Sofa",
-        imgUrl: "productImg03",
+        imgUrl: productImg03,
         category: "sofa",
         price: 213,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -244,7 +248,7 @@ export const products = [
     {
         id: "03",
         productName: "Fllufy Sheep Sofa",
-        imgUrl: "productImg04",
+        imgUrl: productImg04,
         category: "sofa",
         price: 168,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -264,7 +268,7 @@ export const products = [
     {
         id: "04",
         productName: "Faux Velvet Sofa",
-        imgUrl: "productImg05",
+        imgUrl: productImg05,
         category: "sofa",
         price: 213,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -284,7 +288,7 @@ export const products = [
     {
         id: "05",
         productName: "sakarias Armchair",
-        imgUrl: "productImg06",
+        imgUrl: productImg06,
         category: "chair",
         price: 153,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -304,7 +308,7 @@ export const products = [
     {
         id: "06",
         productName: "Modern Arm Sofa",
-        imgUrl: "productImg01",
+        imgUrl: productImg07,
         category: "sofa",
         price: 235,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -324,7 +328,7 @@ export const products = [
     {
         id: "07",
         productName: "Apple iphone 14 pro",
-        imgUrl: "productImg02",
+        imgUrl: productImg08,
         category: "mobile",
         price: 729,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -344,7 +348,7 @@ export const products = [
     {
         id: "08",
         productName: "Apple iphone 14 max",
-        imgUrl: "productImg04",
+        imgUrl: productImg09,
         category: "mobile",
         price: 799,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -364,7 +368,7 @@ export const products = [
     {
         id: "09",
         productName: "One Plus Nord",
-        imgUrl: "productImg06",
+        imgUrl: productImg10,
         category: "mobile",
         price: 729,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -384,7 +388,7 @@ export const products = [
     {
         id: "10",
         productName: "Rolex Watch",
-        imgUrl: "productImg16",
+        imgUrl: productImg06,
         category: "watch",
         price: 599,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -404,7 +408,7 @@ export const products = [
     {
         id: "11",
         productName: "Timex Easy Reader Watch",
-        imgUrl: "productImg17",
+        imgUrl: productImg04,
         category: "watch",
         price: 399,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -424,7 +428,7 @@ export const products = [
     {
         id: "12",
         productName: "Apple Watch",
-        imgUrl: "productImg18",
+        imgUrl: productImg02,
         category: "watch",
         price: 699,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -444,7 +448,7 @@ export const products = [
     {
         id: "13",
         productName: "Beat Studio Wireless",
-        imgUrl: "productImg19",
+        imgUrl: productImg10,
         category: "wireless",
         price: 399,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -464,7 +468,7 @@ export const products = [
     {
         id: "14",
         productName: "Beat EP Headphones",
-        imgUrl: "productImg20",
+        imgUrl: productImg07,
         category: "wireless",
         price: 299,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -484,7 +488,7 @@ export const products = [
     {
         id: "15",
         productName: "Black Headphones",
-        imgUrl: "productImg21",
+        imgUrl: productImg04,
         category: "wireless",
         price: 229,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -504,7 +508,7 @@ export const products = [
     {
         id: "16",
         productName: "Bluetooth Headphones",
-        imgUrl: "productImg22",
+        imgUrl: productImg09,
         category: "wireless",
         price: 499,
         shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import "./slidercard.css";
 
 const SliderCard = ({title, desc, cover}) => {
     return(

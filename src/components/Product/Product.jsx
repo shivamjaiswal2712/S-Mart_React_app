@@ -3,13 +3,14 @@ import { useNavigate } from "react-router-dom";
 import {  DataContainer } from "../../App";
 import { toast } from "react-toastify";
 import { Col } from "react-bootstrap";
+import "./product.css";
 
 const Product = ({title, productItem, addTocart}) => {
     const {setSelectedProduct} = useContext(DataContainer);
     const navigate = useNavigate();
     const [count, setCount] = useState(0);
     const increment = () => {
-        setCount(count)
+        setCount(count + 1)
     }
 
     const handleClick = () => {

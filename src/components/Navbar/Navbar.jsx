@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { DataContainer } from "../../App";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./navbar.css";
 
 const NavBar = () => {
     const {cartItem, setCartItem} = useContext(DataContainer);
