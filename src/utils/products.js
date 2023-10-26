@@ -1,38 +1,65 @@
-import productImg01 from "../Images/Victorian_Mahogany_Rocking_Arm.jpg";
+import productImg01 from "../Images/arm-chair-04.jpg";
 import productImg02 from "../Images/arm-chair-01.jpg";
 import productImg03 from "../Images/arm-chair-02.jpg";
 import productImg04 from "../Images/double-sofa-01.jpg";
-import productImg05 from "../Images/iphone13.jpg";
+// import productImg05 from "../Images/iphone13.jpg";
 import productImg06 from "../Images/iphone14.jpg";
 import productImg07 from "../Images/arm-chair-03.jpg";
 import productImg08 from "../Images/double-sofa-02.jpg";
 import productImg09 from "../Images/double-sofa-03.jpg";
 import productImg10 from "../Images/double-sofa-04.jpg";
+// import productImg11 from "../Images/apple watch.jpg";
+// import productImg12 from "../Images/apple watch01.jpg";
+import productImg13 from "../Images/beat headphones.jpg";
+import productImg14 from "../Images/beat studio.jpg";
+import productImg15 from "../Images/beat xp headphones.jpg";
+// import productImg16 from "../Images/blach headphones.jpg";
+import productImg17 from "../Images/boat.jpg";
+// import productImg18 from "../Images/hero-cover.jpg";
+import productImg19 from "../Images/iphone13.jpg";
+import productImg20 from "../Images/iphone14 pro.jpg";
+import productImg21 from "../Images/iphone14.jpg";
+import productImg22 from "../Images/one plus nord.jpg";
+import productImg23 from "../Images/realme8.jpg";
+import productImg24 from "../Images/rolex.jpg";
+import productImg25 from "../Images/rolex01.jpg";
+import productImg26 from "../Images/samsung s22 .jpg";
+// import productImg27 from "../Images/samsung s22 ultra.jpg";
+import productImg28 from "../Images/single sofa.jpg";
+import productImg29 from "../Images/single sofa01.jpg";
+import productImg30 from "../Images/single sofa02.jpg";
+import productImg31 from "../Images/watch.jpg";
+// import productImg32 from "../Images/watch02.jpg";
+import productImg33 from "../Images/watch03.jpg";
+import sofaSlide from "../Images/arm-chair-01.jpg";
+import phone08 from "../Images/realme8i.jpg";
+import wireless01 from "../Images/bluthtooth.jpg";
+import watchSlide from "../Images/apple watch.jpg";
 
 export const SliderData = [
     {
         id: 1,
         title: "50% Off For Your First Shopping",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-        // cover: sofaSlide,
+        cover: phone08,
     },
     {
         id: 2,
         title: "50% Off For Your First Shopping",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-        // cover: phone08,
+        cover: watchSlide,
     },
     {
         id: 3,
         title: "50% Off For Your First Shopping",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-        // cover: wireless01,
+        cover: wireless01,
     },
     {
         id: 4,
         title: "50% Off For Your First Shopping",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-        // cover: watchSlide,
+        cover: sofaSlide,
     },
   ];
   
@@ -67,7 +94,7 @@ export const SliderData = [
     {
       id: "01",
       productName: "Stone and Beam Westview ",
-      imgUrl: productImg01,
+      imgUrl: productImg04,
       category: "sofa",
       price: 193,
       discount:30,
@@ -86,7 +113,7 @@ export const SliderData = [
     {
       id: "02",
       productName: "Rivet Bigelow Modern ",
-      imgUrl: productImg02,
+      imgUrl: productImg08,
       category: "sofa",
       price: 253,
       discount:20,
@@ -109,7 +136,7 @@ export const SliderData = [
     {
       id: "08",
       productName: "Baltsar Chair",
-      imgUrl: productImg08,
+      imgUrl: productImg01,
       category: "chair",
       price: 89,
       discount:15,
@@ -132,7 +159,7 @@ export const SliderData = [
     {
       id: "09",
       productName: "Helmar Chair",
-      imgUrl: productImg09,
+      imgUrl: productImg02,
       category: "chair",
       price: 112,
       discount:35,
@@ -155,7 +182,7 @@ export const SliderData = [
     {
       id: "12",
       productName: "Realme 8",
-      imgUrl: productImg04,
+      imgUrl: productImg23,
       category: "mobile",
       price: 599,
       discount:10,
@@ -178,7 +205,7 @@ export const SliderData = [
     {
       id: "13",
       productName: "One Plus Nord",
-      imgUrl: productImg06,
+      imgUrl: productImg22,
       category: "mobile",
       price: 799,
       discount:5,
@@ -205,7 +232,7 @@ export const SliderData = [
     {
       id: "01",
       productName: "Stone and Beam Westview ",
-      imgUrl: productImg01,
+      imgUrl: productImg09,
       category: "sofa",
       price: 193,
       shortDesc:
@@ -224,7 +251,7 @@ export const SliderData = [
     {
       id: "02",
       productName: "Rivet Bigelow Modern ",
-      imgUrl: productImg02,
+      imgUrl: productImg10,
       category: "sofa",
       price: 253,
       shortDesc:
@@ -247,7 +274,7 @@ export const SliderData = [
     {
       id: "03",
       productName: "Amazon Brand Modern Sofa",
-      imgUrl: productImg03,
+      imgUrl: productImg29,
       category: "sofa",
       price: 173,
       shortDesc:
@@ -269,7 +296,7 @@ export const SliderData = [
     {
       id: "26",
       productName: "Rivet Bigelow Modern ",
-      imgUrl: productImg02,
+      imgUrl: productImg30,
       category: "sofa",
       price: 253,
       shortDesc:
@@ -291,7 +318,7 @@ export const SliderData = [
     {
       id: "04",
       productName: "Fllufy Sheep Sofa",
-      imgUrl: productImg04,
+      imgUrl: productImg28,
       category: "sofa",
       price: 163,
       shortDesc:
@@ -314,7 +341,7 @@ export const SliderData = [
     {
       id: "05",
       productName: "Faux Velvet Sofa",
-      imgUrl: productImg05,
+      imgUrl: productImg04,
       category: "sofa",
       price: 163,
       shortDesc:
@@ -405,7 +432,7 @@ export const SliderData = [
     {
       id: "08",
       productName: "Baltsar Chair",
-      imgUrl: productImg08,
+      imgUrl: productImg03,
       category: "chair",
       price: 89,
       shortDesc:
@@ -428,7 +455,7 @@ export const SliderData = [
     {
       id: "09",
       productName: "Helmar Chair",
-      imgUrl: productImg09,
+      imgUrl: productImg02,
       category: "chair",
       price: 112,
       shortDesc:
@@ -450,8 +477,8 @@ export const SliderData = [
   
     {
       id: "10",
-      productName: "Apple iPhone 12 Pro",
-      imgUrl: productImg01,
+      productName: "Apple iPhone 14 Pro",
+      imgUrl: productImg20,
       category: "mobile",
       price: 799,
       shortDesc:
@@ -494,8 +521,8 @@ export const SliderData = [
     },
     {
       id: "11",
-      productName: "Apple iPhone 12 Max",
-      imgUrl: productImg09,
+      productName: "Apple iPhone 14 Max",
+      imgUrl: productImg21,
       category: "mobile",
       price: 799,
       shortDesc:
@@ -518,7 +545,7 @@ export const SliderData = [
     {
       id: "12",
       productName: "Realme 8",
-      imgUrl: productImg01,
+      imgUrl: productImg08,
       category: "mobile",
       price: 599,
       shortDesc:
@@ -541,7 +568,7 @@ export const SliderData = [
     {
       id: "13",
       productName: "One Plus Nord",
-      imgUrl: productImg02,
+      imgUrl: productImg22,
       category: "mobile",
       price: 799,
       shortDesc:
@@ -563,8 +590,8 @@ export const SliderData = [
   
     {
       id: "14",
-      productName: "Apple iPhone 13 Pro",
-      imgUrl: productImg05,
+      productName: "Apple iPhone 13",
+      imgUrl: productImg19,
       category: "mobile",
       price: 899,
       shortDesc:
@@ -587,7 +614,7 @@ export const SliderData = [
     {
       id: "15",
       productName: "Samsung Galaxy S22",
-      imgUrl: productImg06,
+      imgUrl: productImg26,
       category: "mobile",
       price: 699,
       shortDesc:
@@ -610,7 +637,7 @@ export const SliderData = [
     {
       id: "16",
       productName: "Rolex Watch",
-      imgUrl: productImg07,
+      imgUrl: productImg24,
       category: "watch",
       price: 299,
       shortDesc:
@@ -633,7 +660,7 @@ export const SliderData = [
     {
       id: "17",
       productName: "Timex Easy Reader Watch",
-      imgUrl: productImg08,
+      imgUrl: productImg31,
       category: "watch",
       price: 299,
       shortDesc:
@@ -656,7 +683,7 @@ export const SliderData = [
     {
       id: "18",
       productName: "Rolex Watch",
-      imgUrl: productImg08,
+      imgUrl: productImg25,
       category: "watch",
       price: 299,
       shortDesc:
@@ -679,7 +706,7 @@ export const SliderData = [
     {
       id: "19",
       productName: "Apple Watch",
-      imgUrl: productImg09,
+      imgUrl: productImg33,
       category: "watch",
       price: 399,
       shortDesc:
@@ -702,7 +729,7 @@ export const SliderData = [
     {
       id: "20",
       productName: "Beat Studio Wireless",
-      imgUrl: productImg10,
+      imgUrl: productImg14,
       category: "wireless",
       price: 199,
       shortDesc:
@@ -725,7 +752,7 @@ export const SliderData = [
     {
       id: "21",
       productName: "Beat EP Headphones",
-      imgUrl: productImg02,
+      imgUrl: productImg15,
       category: "wireless",
       price: 199,
       shortDesc:
@@ -747,7 +774,7 @@ export const SliderData = [
     {
       id: "22",
       productName: "Black Headphones",
-      imgUrl: productImg06,
+      imgUrl: productImg13,
       category: "wireless",
       price: 169,
       shortDesc:
@@ -769,7 +796,7 @@ export const SliderData = [
     {
       id: "23",
       productName: "Bluetooth Headphones",
-      imgUrl: productImg07,
+      imgUrl: productImg17,
       category: "wireless",
       price: 139,
       shortDesc:
